@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="adminpages_tc.Admin_Login_009">
+        <methods>
+          <include name="launchUrl"/>
+          <include name="chkPassEncodedOrNot"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="clickAdmin"/>
+        </methods>
+      </class> <!-- adminpages_tc.Admin_Login_009 -->
+      <class name="adminpages_tc.Admin_Login_016">
+        <methods>
+          <include name="launchUrl"/>
+          <include name="verifyForgetPassAndUsernmClickable"/>
+          <include name="setUp"/>
+          <include name="clickAdmin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- adminpages_tc.Admin_Login_016 -->
+      <class name="adminpages_tc.Admin_Login_017">
+        <methods>
+          <include name="launchUrl"/>
+          <include name="userLoginWithValidData"/>
+          <include name="verifyPageTitleOfAdminHome"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="clickAdmin"/>
+        </methods>
+      </class> <!-- adminpages_tc.Admin_Login_017 -->
+      <class name="adminpages_tc.Admin_Login_005">
+        <methods>
+          <include name="launchURL"/>
+          <include name="chkBankNameSpell"/>
+          <include name="setUp"/>
+          <include name="clickAdmin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- adminpages_tc.Admin_Login_005 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
